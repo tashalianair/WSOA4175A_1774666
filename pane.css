@@ -1,0 +1,79 @@
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: rgb(134, 153, 134);
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    width: 750px;
+    height: 550px;
+    word-wrap: break-word;
+    overflow-y: scroll;
+}
+
+.content {
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    font-family: "Recursive";
+    font-size: 18px;
+    color: #000839;
+    padding: 0.1rem 16px;
+    background-color: rgb(137, 226, 177);
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+#divheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: rgb(220, 255, 225);
+    color: cornflowerblue;
+    height: 15px;
+    position: fixed;
+    width: 730px;
+}
+
+#divheader .exit a {
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    padding: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: -28px;
+    margin-right: -11px;
+    background-color: black;
+    color: white;
+    font-family: "Recursive";
+}
+
+#divheader .title p {
+    text-align: center;
+    text-decoration: none;
+    font-family: "Recursive";
+    float: left;
+    margin-top: -5px;
+    color: black;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+    width: 1rem;
+    scrollbar-color: #336600 transparent;
+    scrollbar-width: auto;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #336600;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: tomato;
+}
