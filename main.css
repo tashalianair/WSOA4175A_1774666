@@ -4,7 +4,8 @@ body {
     margin: 0;
     background: url(./vaporwave_images/wallpaper.jpg);
     background-position: center;
-    max-width: 1080px;
+    max-width: 100%;
+    overflow: hidden;
     max-height: inherit;
 }
 
