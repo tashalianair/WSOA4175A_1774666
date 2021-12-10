@@ -1,7 +1,7 @@
 #mydiv {
     position: absolute;
     z-index: 9;
-    background-color: rgb(74, 6, 95);
+    background-color: rgb(216, 129, 243);
     border: 1px solid #55fff7;
     text-align: justify;
     width: 750px;
@@ -21,7 +21,7 @@
     font-size: 18px;
     color: #000839;
     padding: 0.1rem 16px;
-    background-color: rgb(250, 144, 245);
+    background-color: rgb(243, 138, 156);
     max-width: 700px;
     line-height: 1.6;
 }
@@ -31,7 +31,7 @@
     cursor: move;
     z-index: 10;
     background-color: #55fff7;
-    color: rgb(255, 60, 245);
+    color: rgb(255, 60, 135);
     height: 15px;
     position: fixed;
     width: 730px;
